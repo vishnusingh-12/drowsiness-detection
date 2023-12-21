@@ -1,15 +1,12 @@
 import torch
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
-import uuid
-import os
-import time
+
 
 # loading the trained model
 # the model results are stored in the root directory in 'yolov5/runs/train/exp/weights/last.pt'
 
-model=torch.hub.load(repo_or_dir='yolov5',model='custom',path='yolov5/runs/train/exp/weights/last.pt', force_reload=True,source='local')
+model=torch.hub.load(repo_or_dir='custom model',model='custom',path='custom model/runs/train/exp/weights/last.pt', force_reload=True,source='local')
 
 # Realtime Detection  using opencv
 
